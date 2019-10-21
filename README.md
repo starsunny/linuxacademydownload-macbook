@@ -16,16 +16,14 @@
 
 > Clone the repo
 
-> Login to LinuxAcademy and visit the course page e.g. https://linuxacademy.com/cp/modules/view/id/287 and with the `cookies.txt` extention installed, click on the icon of the extension and choose `To download cookies for this tab click here`. Copy the downloaded txt file to root of the cloned repo. Make sure that the name of the file is ``cookies.txt``. Repeat when you an encounter exception in downloading the videos (assuming you have an active subscription).
-
-> course_link e.g. https://linuxacademy.com/cp/modules/view/id/287
-
-``` python
->>> python driver.py username password course_link
-```
-
-### To-Do
-Automate the process for obtaining cookies
+> Download all the programs from the links above.
+> If you face any issue with SSL error, then go to /Applications/Python 3.7 and then Install certificate from below command
+"./Install Certificates.command"
+> You might need to check your browser version and dowload same for chromedriver.
 
 
+cd to the cloned directory, Get the cookies of your video playlist, like : Open the course "https://linuxacademy.com/cp/modules/view/id/266" , download cookies.txt and put it in root folder of your cloned repo. 
+Command to use:
+
+python3 driver.py <Username> <Password> https://linuxacademy.com/cp/modules/view/id/266
 
