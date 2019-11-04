@@ -25,5 +25,5 @@
 cd to the cloned directory, Get the cookies of your video playlist, like : Open the course "https://linuxacademy.com/cp/modules/view/id/266" , download cookies.txt and put it in root folder of your cloned repo. 
 Command to use:
 
-python3 driver.py <Username> <Password> https://linuxacademy.com/cp/modules/view/id/266
+python3 driver.py Username Password https://linuxacademy.com/cp/modules/view/id/266
 
